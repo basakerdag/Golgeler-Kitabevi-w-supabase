@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.9",
+    "react-router-dom": "^7.2.0",
+    "tailwindcss": "^4.0.9"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  },
+  "scripts": {
+    "build": "postcss src/index.css -o build/output.css",
+    "start": "npm run build && live-server build"
+  }
+}
